@@ -41,7 +41,7 @@ public class Lampada {
          System.out.println("Vai desligar a luz depois de sair do quarto?1 para sim e 2 para nao");
        op2 = sc.nextInt();
        
-       if(op2 == 1 && op1 ==2){
+       if(op2 == 1 && op1 == 2){
            System.out.println("A luz esta desligada");
            status = "Lampada desligada";
     }
